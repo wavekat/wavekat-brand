@@ -7,8 +7,7 @@
       {{BOX_COLOR}}     → #ffffff (dark) or #000000 (light)  — inverted from BG
       {{W_COLOR}}       → #000000 (dark) or #ffffff (light)  — same as BG
       {{TEXT_COLOR}}     → #ffffff (dark) or #000000 (light)
-      {{SUBTLE_COLOR}}  → #444444 (dark) or #bbbbbb (light)
-      {{RIBBON_COLOR}}  → #777777 (dark) or #888888 (light)
+      {{RIBBON_COLOR}}  → #777777 (dark) or #888888 (light)  — ribbon + subtitle
       {{REPO_NAME}}     → e.g. wavekat-vad
       {{SUBTITLE}}      → e.g. A WAVEKAT PROJECT or VOICE ACTIVITY DETECTION
   -->
