@@ -21,12 +21,22 @@ Repo logos in dark and light variants.
 |------|-------|------|
 | wavekat-vad | [`assets/logos/wavekat-vad-light.svg`](assets/logos/wavekat-vad-light.svg) | [`assets/logos/wavekat-vad-dark.svg`](assets/logos/wavekat-vad-dark.svg) |
 
+### Icons (256 x 256)
+
+Standalone W mark for favicons, app icons, etc.
+
+| Variant | File |
+|---------|------|
+| Light | [`assets/logos/wavekat-icon-light.svg`](assets/logos/wavekat-icon-light.svg) |
+| Dark | [`assets/logos/wavekat-icon-dark.svg`](assets/logos/wavekat-icon-dark.svg) |
+
 ### Templates
 
 | File | Purpose |
 |------|---------|
 | [`assets/template.svg`](assets/template.svg) | Banner template with placeholders |
 | [`assets/logo-template.svg`](assets/logo-template.svg) | Logo template with placeholders |
+| [`assets/icon-template.svg`](assets/icon-template.svg) | Icon template with placeholders |
 | [`assets/w.svg`](assets/w.svg) | W letterform path |
 
 ## Generate PNGs
