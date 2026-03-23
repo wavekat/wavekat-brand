@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <!--
+    WaveKat Repo Banner Template
+    =============================
+    Replace these placeholders before use:
+      {{THEME_COLOR}}       → e.g. #00bcd4
+      {{THEME_COLOR_LIGHT}} → e.g. #e0f7fa
+      {{THEME_COLOR_MUTED}} → e.g. #5f8f8a
+      {{THEME_COLOR_DIM}}   → e.g. #4db6ac
+      {{REPO_NAME}}         → e.g. wavekat-vad
+      {{DESCRIPTION}}       → e.g. VOICE ACTIVITY DETECTION
+  -->
+  <defs>
+    <!-- Background gradient (constant across all repos) -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+
+    <!-- Wave fill 1 — strongest -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{{THEME_COLOR}}" stop-opacity="0"/>
+      <stop offset="30%" stop-color="{{THEME_COLOR}}" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="{{THEME_COLOR}}" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="{{THEME_COLOR}}" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="{{THEME_COLOR}}" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Wave fill 2 — lighter -->
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{{THEME_COLOR}}" stop-opacity="0"/>
+      <stop offset="25%" stop-color="{{THEME_COLOR}}" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="{{THEME_COLOR}}" stop-opacity="0.10"/>
+      <stop offset="75%" stop-color="{{THEME_COLOR}}" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="{{THEME_COLOR}}" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Central glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="{{THEME_COLOR}}" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="{{THEME_COLOR}}" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot grid -->
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.8" fill="{{THEME_COLOR}}" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- ======== BACKGROUND LAYER (no text) ======== -->
+
+  <!-- Dark base -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Dot grid overlay -->
+  <rect width="1280" height="640" fill="url(#dots)"/>
+
+  <!-- Radial glow -->
+  <ellipse cx="640" cy="320" rx="500" ry="300" fill="url(#glow)"/>
+
+  <!-- Wave layer 1 — large, slow sine -->
+  <path d="M 0 340
+    C 80 280, 160 280, 240 340
+    C 320 400, 400 400, 480 340
+    C 560 280, 640 280, 720 340
+    C 800 400, 880 400, 960 340
+    C 1040 280, 1120 280, 1200 340
+    L 1280 340 L 1280 360
+    L 1200 360
+    C 1120 300, 1040 300, 960 360
+    C 880 420, 800 420, 720 360
+    C 640 300, 560 300, 480 360
+    C 400 420, 320 420, 240 360
+    C 160 300, 80 300, 0 360
+    Z" fill="url(#wave1)"/>
+
+  <!-- Wave layer 2 — tighter frequency -->
+  <path d="M 0 330
+    C 60 300, 120 300, 180 330
+    C 240 360, 300 360, 360 330
+    C 420 300, 480 300, 540 330
+    C 600 360, 660 360, 720 330
+    C 780 300, 840 300, 900 330
+    C 960 360, 1020 360, 1080 330
+    C 1140 300, 1200 300, 1280 330
+    L 1280 345
+    C 1200 315, 1140 315, 1080 345
+    C 1020 375, 960 375, 900 345
+    C 840 315, 780 315, 720 345
+    C 660 375, 600 375, 540 345
+    C 480 315, 420 315, 360 345
+    C 300 375, 240 375, 180 345
+    C 120 315, 60 315, 0 345
+    Z" fill="url(#wave2)"/>
+
+  <!-- Wave layer 3 — wide, very subtle -->
+  <path d="M 0 320
+    C 160 260, 320 260, 480 320
+    C 640 380, 800 380, 960 320
+    C 1120 260, 1200 280, 1280 310
+    L 1280 318
+    C 1200 288, 1120 268, 960 328
+    C 800 388, 640 388, 480 328
+    C 320 268, 160 268, 0 328
+    Z" fill="{{THEME_COLOR}}" opacity="0.04"/>
+
+  <!-- Center hairline -->
+  <line x1="0" y1="320" x2="1280" y2="320" stroke="{{THEME_COLOR}}" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- ======== FOREGROUND LAYER ======== -->
+
+  <!-- Repo name (hero) -->
+  <text x="640" y="340" text-anchor="middle"
+    font-family="'SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="72" font-weight="700" fill="{{THEME_COLOR_LIGHT}}"
+    letter-spacing="-1">{{REPO_NAME}}</text>
+
+  <!--
+    Signature ribbon beneath "wavekat" portion of repo name.
+    Filled wavy shape, 3 curves, tapers at both ends.
+    Position depends on repo name length — calculate per repo:
+      char width ≈ 42.2px (72px font, letter-spacing -1)
+      total width = chars × 42.2, centered at x=640
+      "wavekat" = 7 chars = 295.4px from the left edge
+      X1 = 640 - (totalWidth / 2) - 5     (start, slight overshoot)
+      X2 = X1 + 315                        (end, slight overshoot)
+    Then create a filled ribbon path with 3 bezier curves on the
+    top edge (left to right), a taper point, then 3 matching curves
+    on the bottom edge (right to left) offset ~8-12px lower.
+  -->
+  <path d="{{RIBBON_PATH}}" fill="{{THEME_COLOR}}"/>
+
+  <!-- Description -->
+  <text x="640" y="395" text-anchor="middle"
+    font-family="'SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="18" font-weight="700" fill="{{THEME_COLOR_MUTED}}"
+    letter-spacing="3">{{DESCRIPTION}}</text>
+
+  <!-- ======== EDGE ACCENTS ======== -->
+  <rect x="0" y="0" width="1280" height="2" fill="{{THEME_COLOR}}" opacity="0.15"/>
+  <rect x="0" y="638" width="1280" height="2" fill="{{THEME_COLOR}}" opacity="0.15"/>
+</svg>

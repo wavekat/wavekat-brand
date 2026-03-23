@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160">
+  <!--
+    WaveKat Repo Logo Template
+    ===========================
+    Replace these placeholders before use:
+      {{BG_COLOR}}      → #000000 (dark) or #ffffff (light)
+      {{BOX_COLOR}}     → #ffffff (dark) or #000000 (light)  — inverted from BG
+      {{W_COLOR}}       → #000000 (dark) or #ffffff (light)  — same as BG
+      {{TEXT_COLOR}}     → #ffffff (dark) or #000000 (light)
+      {{SUBTLE_COLOR}}  → #444444 (dark) or #bbbbbb (light)
+      {{RIBBON_COLOR}}  → #777777 (dark) or #888888 (light)
+      {{REPO_NAME}}     → e.g. wavekat-vad
+      {{SUBTITLE}}      → e.g. A WAVEKAT PROJECT or VOICE ACTIVITY DETECTION
+  -->
+
+  <!-- Background -->
+  <rect width="640" height="160" fill="{{BG_COLOR}}"/>
+
+  <!-- W mark — rounded square box with inverted W -->
+  <rect x="40" y="30" width="100" height="100" rx="18" fill="{{BOX_COLOR}}"/>
+  <g transform="translate(55, 55.15) scale(0.35)">
+    <path d="M42.6829 142L0 0H35.1626L56.5041 74.6514C57.4526 78.0324 58.2656 81.481 58.9431 84.9971C59.7561 88.3781 60.3659 91.6238 60.7724 94.7343C61.3144 97.8448 61.7209 100.752 61.9919 103.457C62.2629 106.027 62.5339 108.19 62.8049 109.949H58.3333C59.1464 104.945 59.8239 100.482 60.3659 96.56C61.0434 92.6381 61.7886 88.9867 62.6016 85.6057C63.4147 82.0895 64.4309 78.4381 65.6504 74.6514L86.7886 18.46H114.431L135.163 74.6514C136.789 79.1143 138.144 83.3067 139.228 87.2286C140.312 91.1505 141.125 94.9371 141.667 98.5886C142.344 102.105 142.886 105.621 143.293 109.137L139.228 109.746C139.499 107.311 139.702 105.08 139.837 103.051C139.973 100.888 140.108 98.8591 140.244 96.9657C140.515 94.9371 140.786 92.841 141.057 90.6771C141.328 88.5133 141.734 86.1467 142.276 83.5771C142.818 80.8724 143.564 77.8295 144.512 74.4486L165.65 0H200L157.317 142H130.894L97.1545 60.2486L101.016 60.6543L69.9187 142H42.6829Z" fill="{{W_COLOR}}"/>
+  </g>
+
+  <!-- Repo name -->
+  <text x="176" y="68"
+    font-family="'SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="38" font-weight="700" fill="{{TEXT_COLOR}}"
+    letter-spacing="-0.5">{{REPO_NAME}}</text>
+
+  <!-- Signature ribbon under "wavekat" -->
+  <path d="M 173 74
+    C 186 69, 210 79, 248 72
+    C 278 66, 302 78, 328 71
+    C 334 68, 337 72, 339 70
+    L 338 73
+    C 336 75, 333 71, 327 75
+    C 301 82, 277 70, 247 76
+    C 209 83, 185 73, 175 78
+    Z" fill="{{RIBBON_COLOR}}"/>
+
+  <!-- Subtitle -->
+  <text x="178" y="106"
+    font-family="'SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="14" font-weight="700" fill="{{RIBBON_COLOR}}"
+    letter-spacing="2.5">{{SUBTITLE}}</text>
+</svg>
