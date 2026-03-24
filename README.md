@@ -13,6 +13,15 @@ GitHub social preview images.
 | wavekat-vad | ![wavekat-vad banner](assets/banners/wavekat-vad.svg) |
 | wavekat-voice | ![wavekat-voice banner](assets/banners/wavekat-voice.svg) |
 
+### Wordmark (288 x 72)
+
+Main wavekat wordmark with signature ribbon.
+
+| Variant | Preview |
+|---------|---------|
+| Light | ![wavekat light](assets/logos/wavekat-light.svg) |
+| Dark | ![wavekat dark](assets/logos/wavekat-dark.svg) |
+
 ### Logos (640 x 160)
 
 Repo logos in dark and light variants.
@@ -37,6 +46,7 @@ Standalone W mark for favicons, app icons, etc.
 | [`assets/template.svg`](assets/template.svg) | Banner template with placeholders |
 | [`assets/logo-template.svg`](assets/logo-template.svg) | Logo template with placeholders |
 | [`assets/icon-template.svg`](assets/icon-template.svg) | Icon template with placeholders |
+| [`assets/wordmark-template.svg`](assets/wordmark-template.svg) | Wordmark template (4:1 ratio) |
 | [`assets/w.svg`](assets/w.svg) | W letterform path |
 
 ## Generate PNGs

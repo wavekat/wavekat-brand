@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 72" width="288" height="72">
+  <!-- Background -->
+  <rect width="288" height="72" fill="#ffffff"/>
+
+  <!-- Name -->
+  <text x="56" y="46"
+    font-family="'SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="42" font-weight="700" fill="#000000"
+    letter-spacing="-0.5">wavekat</text>
+
+  <!-- Signature ribbon -->
+  <path d="M 54 52
+    C 68 47, 93 57, 132 50
+    C 163 44, 188 56, 216 49
+    C 222 46, 225 50, 227 48
+    L 226 51
+    C 224 53, 221 49, 215 53
+    C 187 60, 162 48, 131 54
+    C 92 61, 67 51, 56 56
+    Z" fill="#888888"/>
+</svg>
