@@ -13,6 +13,15 @@ GitHub social preview images.
 | wavekat-vad | ![wavekat-vad banner](assets/banners/wavekat-vad.svg) |
 | wavekat-voice | ![wavekat-voice banner](assets/banners/wavekat-voice.svg) |
 
+### Narrow Banners (1280 x 320)
+
+README header images.
+
+| Repo | Preview |
+|------|---------|
+| wavekat-vad | ![wavekat-vad narrow banner](assets/banners/wavekat-vad-narrow.svg) |
+| wavekat-voice | ![wavekat-voice narrow banner](assets/banners/wavekat-voice-narrow.svg) |
+
 ### Wordmark (288 x 72)
 
 Main wavekat wordmark with signature ribbon.
@@ -44,6 +53,7 @@ Standalone W mark for favicons, app icons, etc.
 | File | Purpose |
 |------|---------|
 | [`assets/template.svg`](assets/template.svg) | Banner template with placeholders |
+| [`assets/narrow-template.svg`](assets/narrow-template.svg) | Narrow banner template (4:1 ratio) |
 | [`assets/logo-template.svg`](assets/logo-template.svg) | Logo template with placeholders |
 | [`assets/icon-template.svg`](assets/icon-template.svg) | Icon template with placeholders |
 | [`assets/wordmark-template.svg`](assets/wordmark-template.svg) | Wordmark template (4:1 ratio) |
