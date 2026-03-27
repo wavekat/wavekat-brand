@@ -14,6 +14,7 @@ GitHub social preview images.
 | wavekat-voice | ![wavekat-voice banner](assets/banners/wavekat-voice.svg) |
 | wavekat-turn | ![wavekat-turn banner](assets/banners/wavekat-turn.svg) |
 | wavekat-core | ![wavekat-core banner](assets/banners/wavekat-core.svg) |
+| wavekat-lab | ![wavekat-lab banner](assets/banners/wavekat-lab.svg) |
 
 ### Narrow Banners (1280 x 320)
 
@@ -25,6 +26,7 @@ README header images.
 | wavekat-voice | ![wavekat-voice narrow banner](assets/banners/wavekat-voice-narrow.svg) |
 | wavekat-turn | ![wavekat-turn narrow banner](assets/banners/wavekat-turn-narrow.svg) |
 | wavekat-core | ![wavekat-core narrow banner](assets/banners/wavekat-core-narrow.svg) |
+| wavekat-lab | ![wavekat-lab narrow banner](assets/banners/wavekat-lab-narrow.svg) |
 
 ### Wordmark (288 x 72)
 
