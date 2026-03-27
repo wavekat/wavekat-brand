@@ -1,21 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 72" width="288" height="72">
-  <!--
-    WaveKat Wordmark Template
-    =========================
-    Ratio: 4:1 (288×72), padding: 56h 16v
-    Replace these placeholders before use:
-      {{BG_COLOR}}      → #000000 (dark) or #ffffff (light)
-      {{TEXT_COLOR}}     → #ffffff (dark) or #000000 (light)
-      {{RIBBON_COLOR}}  → #777777 (dark) or #888888 (light)
-  -->
-
   <!-- Background -->
-  <rect width="288" height="72" fill="{{BG_COLOR}}"/>
+  <rect width="288" height="72" fill="#ffffff"/>
 
   <!-- Name -->
   <text x="56" y="46"
     font-family="'Menlo','SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
-    font-size="42" font-weight="700" fill="{{TEXT_COLOR}}"
+    font-size="42" font-weight="700" fill="#000000"
     letter-spacing="-0.5">wavekat</text>
 
   <!-- Signature ribbon -->
@@ -27,5 +17,5 @@
     C 224 53, 221 49, 215 53
     C 187 60, 162 48, 131 54
     C 92 61, 67 51, 56 56
-    Z" fill="{{RIBBON_COLOR}}"/>
+    Z" fill="#888888"/>
 </svg>

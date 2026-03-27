@@ -66,11 +66,13 @@ Standalone W mark for favicons, app icons, etc.
 | [`assets/wordmark-template.svg`](assets/wordmark-template.svg) | Wordmark template (4:1 ratio) |
 | [`assets/w.svg`](assets/w.svg) | W letterform path |
 
-## Generate PNGs
+## Build
 
 ```sh
-make png    # convert all SVGs to PNG
-make clean  # remove generated PNGs
+make dist   # convert text to paths: src/ → assets/ (requires Inkscape)
+make clean  # remove built assets
 ```
 
-Requires `rsvg-convert` (`brew install librsvg`).
+### Prerequisites
+
+- **Inkscape** — `brew install --cask inkscape`

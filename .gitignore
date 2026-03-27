@@ -1,5 +1,4 @@
 .DS_Store
 
 # Generated PNGs — regenerate with `make png`
-assets/banners/png/
-assets/logos/png/
+*.png
