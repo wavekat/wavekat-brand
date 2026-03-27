@@ -12,6 +12,7 @@ GitHub social preview images.
 |------|---------|
 | wavekat-vad | ![wavekat-vad banner](assets/banners/wavekat-vad.svg) |
 | wavekat-voice | ![wavekat-voice banner](assets/banners/wavekat-voice.svg) |
+| wavekat-turn | ![wavekat-turn banner](assets/banners/wavekat-turn.svg) |
 
 ### Narrow Banners (1280 x 320)
 
@@ -21,6 +22,7 @@ README header images.
 |------|---------|
 | wavekat-vad | ![wavekat-vad narrow banner](assets/banners/wavekat-vad-narrow.svg) |
 | wavekat-voice | ![wavekat-voice narrow banner](assets/banners/wavekat-voice-narrow.svg) |
+| wavekat-turn | ![wavekat-turn narrow banner](assets/banners/wavekat-turn-narrow.svg) |
 
 ### Wordmark (288 x 72)
 
@@ -38,6 +40,7 @@ Repo logos in dark and light variants.
 | Repo | Light | Dark |
 |------|-------|------|
 | wavekat-vad | ![wavekat-vad light](assets/logos/wavekat-vad-light.svg) | ![wavekat-vad dark](assets/logos/wavekat-vad-dark.svg) |
+| wavekat-turn | ![wavekat-turn light](assets/logos/wavekat-turn-light.svg) | ![wavekat-turn dark](assets/logos/wavekat-turn-dark.svg) |
 
 ### Icons (256 x 256)
 
