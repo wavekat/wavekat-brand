@@ -1,7 +1,9 @@
 INKSCAPE := /Applications/Inkscape.app/Contents/MacOS/inkscape
 ACTIONS  := select-all;object-to-path;export-plain-svg;export-do
 
-.PHONY: dist png clean
+.PHONY: dist png clean help
+
+.DEFAULT_GOAL := help
 
 # Convert text to paths: src/ → assets/ (requires Inkscape)
 dist:
@@ -48,3 +50,16 @@ png:
 
 clean:
 	rm -rf assets/banners assets/logos assets/w.svg assets/banners/png assets/logos/png
+
+help:
+	@echo "Usage: make [target]"
+	@echo ""
+	@echo "Targets:"
+	@echo "  dist    Convert src/ SVGs (text elements) to assets/ SVGs (paths) via Inkscape"
+	@echo "  png     Convert assets/ SVGs to PNG using rsvg-convert"
+	@echo "  clean   Remove all built assets (assets/banners, assets/logos)"
+	@echo "  help    Show this help message"
+	@echo ""
+	@echo "Prerequisites:"
+	@echo "  dist: brew install --cask inkscape"
+	@echo "  png:  brew install librsvg"
