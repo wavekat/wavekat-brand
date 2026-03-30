@@ -4,6 +4,16 @@ Brand assets, design system, and social preview banners for WaveKat repositories
 
 ## Assets
 
+### OG Image (1200 x 630)
+
+LinkedIn / OpenGraph social preview for wavekat.com.
+
+| File | Preview |
+|------|---------|
+| SVG source | [`src/og.svg`](src/og.svg) |
+| Built SVG | `assets/og.svg` (run `make dist`) |
+| PNG export | `assets/og.png` (run `make png`) |
+
 ### Banners (1280 x 640)
 
 GitHub social preview images.

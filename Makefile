@@ -21,6 +21,9 @@ dist:
 		$(INKSCAPE) "$$f" --actions="select-all;object-to-path;export-filename:assets/logos/$$name;$(ACTIONS)" 2>/dev/null; \
 		echo "  assets/logos/$$name"; \
 	done
+	@echo "Converting og image (text → paths)..."
+	@$(INKSCAPE) src/og.svg --actions="select-all;object-to-path;export-filename:assets/og.svg;$(ACTIONS)" 2>/dev/null
+	@echo "  assets/og.svg"
 	@echo "Copying non-text assets..."
 	@cp src/w.svg assets/w.svg
 	@cp src/template.svg assets/template.svg
@@ -46,10 +49,12 @@ png:
 		rsvg-convert "$$f" -o "assets/logos/png/$$name.png"; \
 		echo "  $$name.png"; \
 	done
+	@echo "Converting og image..."
+	@if [ -f assets/og.svg ]; then rsvg-convert assets/og.svg -o assets/og.png && echo "  og.png"; else echo "  skipping og.png (run make dist first)"; fi
 	@echo "Done."
 
 clean:
-	rm -rf assets/banners assets/logos assets/w.svg assets/banners/png assets/logos/png
+	rm -rf assets/banners assets/logos assets/og.svg assets/og.png assets/w.svg assets/banners/png assets/logos/png
 
 help:
 	@echo "Usage: make [target]"
