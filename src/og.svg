@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!--
+    WaveKat OG Image (wavekat.com)
+    ==============================
+    LinkedIn / OpenGraph: 1200×630
+    Source file — text elements, requires `make dist` to convert to paths.
+    Edit the tagline text below to update the description.
+  -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+
+    <!-- Wave fills (neutral for main wavekat brand) -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="70%"  stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="75%"  stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Central glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot grid -->
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.8" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- ======== BACKGROUND LAYER ======== -->
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <ellipse cx="600" cy="315" rx="480" ry="280" fill="url(#glow)"/>
+
+  <!-- Wave layer 1 — large, slow sine -->
+  <path d="M 0 330
+    C 75 270, 150 270, 225 330
+    C 300 390, 375 390, 450 330
+    C 525 270, 600 270, 675 330
+    C 750 390, 825 390, 900 330
+    C 975 270, 1050 270, 1125 330
+    L 1200 330 L 1200 349
+    L 1125 349
+    C 1050 289, 975 289, 900 349
+    C 825 409, 750 409, 675 349
+    C 600 289, 525 289, 450 349
+    C 375 409, 300 409, 225 349
+    C 150 289, 75 289, 0 349
+    Z" fill="url(#wave1)"/>
+
+  <!-- Wave layer 2 — tighter frequency -->
+  <path d="M 0 320
+    C 56 291, 112 291, 168 320
+    C 225 349, 281 349, 337 320
+    C 393 291, 450 291, 506 320
+    C 562 349, 618 349, 675 320
+    C 731 291, 787 291, 843 320
+    C 900 349, 956 349, 1012 320
+    C 1069 291, 1125 291, 1200 320
+    L 1200 334
+    C 1125 305, 1069 305, 1012 334
+    C 956 363, 900 363, 843 334
+    C 787 305, 731 305, 675 334
+    C 618 363, 562 363, 506 334
+    C 450 305, 393 305, 337 334
+    C 281 363, 225 363, 168 334
+    C 112 305, 56 305, 0 334
+    Z" fill="url(#wave2)"/>
+
+  <!-- Wave layer 3 — wide, very subtle -->
+  <path d="M 0 310
+    C 150 251, 300 251, 450 310
+    C 600 369, 750 369, 900 310
+    C 1050 251, 1125 270, 1200 299
+    L 1200 307
+    C 1125 278, 1050 257, 900 317
+    C 750 377, 600 377, 450 317
+    C 300 257, 150 257, 0 317
+    Z" fill="#ffffff" opacity="0.02"/>
+
+  <!-- Center hairline -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+
+  <!-- ======== FOREGROUND LAYER ======== -->
+
+  <!-- Wordmark -->
+  <text x="600" y="330" text-anchor="middle"
+    font-family="'Menlo','SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="72" font-weight="700" fill="#ffffff"
+    letter-spacing="-1">wavekat</text>
+
+  <!--
+    Signature ribbon beneath "wavekat".
+    Centered at x=600 for "wavekat" (7 chars × 42.2px ≈ 295px wide).
+    X1=447, X2=762 (315px span, ~10px overshoot each side).
+  -->
+  <path d="M 447 345
+    C 474 336, 524 352, 584 340
+    C 634 330, 684 350, 734 338
+    C 752 333, 758 338, 762 335
+    L 759 340
+    C 754 344, 749 339, 732 345
+    C 682 358, 632 336, 582 348
+    C 522 360, 472 342, 450 350
+    Z" fill="#888888"/>
+
+  <!-- Tagline -->
+  <text x="600" y="390" text-anchor="middle"
+    font-family="'Menlo','SF Mono','JetBrains Mono','Fira Code','Cascadia Code',monospace"
+    font-size="18" font-weight="700" fill="#666666"
+    letter-spacing="3">REAL-TIME VOICE AI</text>
+
+  <!-- ======== EDGE ACCENTS ======== -->
+  <rect x="0" y="0"   width="1200" height="2" fill="#ffffff" opacity="0.08"/>
+  <rect x="0" y="628" width="1200" height="2" fill="#ffffff" opacity="0.08"/>
+</svg>
