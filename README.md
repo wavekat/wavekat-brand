@@ -30,12 +30,21 @@ README header images.
 
 ### Wordmark (288 x 72)
 
-Main wavekat wordmark with signature ribbon.
+Main wavekat wordmark with signature ribbon. Includes a background rect — use for standalone display.
 
 | Variant | Preview |
 |---------|---------|
 | Light | ![wavekat light](assets/logos/wavekat-light.svg) |
 | Dark | ![wavekat dark](assets/logos/wavekat-dark.svg) |
+
+### Wordmark — Tight (184 x 53)
+
+No background, viewBox trimmed to content bounds. Use in navbars and inline UI where alignment matters.
+
+| Variant | Preview |
+|---------|---------|
+| Light | ![wavekat tight light](assets/logos/wavekat-tight-light.svg) |
+| Dark | ![wavekat tight dark](assets/logos/wavekat-tight-dark.svg) |
 
 ### Logos (640 x 160)
 
