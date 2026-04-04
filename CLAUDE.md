@@ -29,6 +29,7 @@ Each repo has a unique accent color used throughout its assets:
 | wavekat-voice | `#ff6d00` (orange) | `#fff3e0` | `#9f7a56` |
 | wavekat-core | `#00e676` (green) | `#e8f5e9` | `#6b9f6b` |
 | wavekat-lab | `#ffd740` (amber) | `#fff8e1` | `#9f8a40` |
+| wavekat-tts | `#ff4081` (pink) | `#fce4ec` | `#9f6b7a` |
 
 ## Creating new assets
 
