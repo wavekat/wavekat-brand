@@ -28,6 +28,7 @@ GitHub social preview images.
 | wavekat-tts | ![wavekat-tts banner](assets/banners/wavekat-tts.svg) |
 | wavekat-cli | ![wavekat-cli banner](assets/banners/wavekat-cli.svg) |
 | wavekat-sip | ![wavekat-sip banner](assets/banners/wavekat-sip.svg) |
+| wavekat-asr | ![wavekat-asr banner](assets/banners/wavekat-asr.svg) |
 
 ### Narrow Banners (1280 x 320)
 
@@ -43,6 +44,7 @@ README header images.
 | wavekat-tts | ![wavekat-tts narrow banner](assets/banners/wavekat-tts-narrow.svg) |
 | wavekat-cli | ![wavekat-cli narrow banner](assets/banners/wavekat-cli-narrow.svg) |
 | wavekat-sip | ![wavekat-sip narrow banner](assets/banners/wavekat-sip-narrow.svg) |
+| wavekat-asr | ![wavekat-asr narrow banner](assets/banners/wavekat-asr-narrow.svg) |
 
 ### Wordmark (288 x 72)
 
@@ -74,6 +76,7 @@ Repo logos in dark and light variants.
 | wavekat-cli | ![wavekat-cli light](assets/logos/wavekat-cli-light.svg) | ![wavekat-cli dark](assets/logos/wavekat-cli-dark.svg) |
 | wavekat-sip | ![wavekat-sip light](assets/logos/wavekat-sip-light.svg) | ![wavekat-sip dark](assets/logos/wavekat-sip-dark.svg) |
 | wavekat-voice | ![wavekat-voice light](assets/logos/wavekat-voice-light.svg) | ![wavekat-voice dark](assets/logos/wavekat-voice-dark.svg) |
+| wavekat-asr | ![wavekat-asr light](assets/logos/wavekat-asr-light.svg) | ![wavekat-asr dark](assets/logos/wavekat-asr-dark.svg) |
 
 ### Icons (256 x 256)
 

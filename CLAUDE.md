@@ -32,6 +32,7 @@ Each repo has a unique accent color used throughout its assets:
 | wavekat-tts | `#ff4081` (pink) | `#fce4ec` | `#9f6b7a` |
 | wavekat-cli | `#2196f3` (blue) | `#e3f2fd` | `#6b7f9f` |
 | wavekat-sip | `#3f51b5` (indigo) | `#e8eaf6` | `#7a7f9f` |
+| wavekat-asr | `#f44336` (red) | `#ffebee` | `#9f6b6b` |
 
 ## Creating new assets
 
