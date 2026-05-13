@@ -8,7 +8,8 @@
     ".": {
       "release-type": "simple",
       "package-name": "wavekat-brand",
-      "component": ""
+      "component": "",
+      "release-as": "0.0.1"
     }
   }
 }
