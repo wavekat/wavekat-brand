@@ -73,6 +73,7 @@ Repo logos in dark and light variants.
 | wavekat-tts | ![wavekat-tts light](assets/logos/wavekat-tts-light.svg) | ![wavekat-tts dark](assets/logos/wavekat-tts-dark.svg) |
 | wavekat-cli | ![wavekat-cli light](assets/logos/wavekat-cli-light.svg) | ![wavekat-cli dark](assets/logos/wavekat-cli-dark.svg) |
 | wavekat-sip | ![wavekat-sip light](assets/logos/wavekat-sip-light.svg) | ![wavekat-sip dark](assets/logos/wavekat-sip-dark.svg) |
+| wavekat-voice | ![wavekat-voice light](assets/logos/wavekat-voice-light.svg) | ![wavekat-voice dark](assets/logos/wavekat-voice-dark.svg) |
 
 ### Icons (256 x 256)
 
@@ -82,6 +83,17 @@ Standalone W mark for favicons, app icons, etc.
 |---------|---------|
 | Light | ![icon light](assets/logos/wavekat-icon-light.svg) |
 | Dark | ![icon dark](assets/logos/wavekat-icon-dark.svg) |
+
+### Voice app assets
+
+A macOS menu-bar tray template (pure black W on transparent, 22pt safe-area
+canvas) for [`wavekat-voice`](https://github.com/wavekat/wavekat-voice). The
+`.icns` / `.ico` / Linux PNG are derived downstream from the existing
+`wavekat-icon-light.svg`.
+
+| File | Purpose |
+|------|---------|
+| [`assets/logos/wavekat-voice-tray-Template.svg`](assets/logos/wavekat-voice-tray-Template.svg) | Source for macOS menu-bar `tray-Template.png` (use with `NSImage.setTemplate(true)` / Electron `setTemplateImage(true)`) |
 
 ### Templates
 
