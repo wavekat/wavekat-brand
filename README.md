@@ -1,6 +1,6 @@
 # wavekat-brand
 
-Brand assets, design system, and social preview banners for WaveKat repositories.
+Brand assets, design system, and social preview banners for [WaveKat](https://wavekat.com) repositories.
 
 ## Assets
 
@@ -119,3 +119,9 @@ make clean  # remove built assets
 ### Prerequisites
 
 - **Inkscape** — `brew install --cask inkscape`
+
+## About WaveKat
+
+WaveKat is an open-source ecosystem for building real-time voice pipelines. This repo holds the brand assets and design system used across WaveKat projects.
+
+See [wavekat.com](https://wavekat.com) for the full project.
