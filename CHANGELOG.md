@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1](https://github.com/wavekat/wavekat-brand/compare/v0.0.1...v0.0.1) (2026-06-04)
+
+
+### Features
+
+* add wavekat-asr brand assets ([#10](https://github.com/wavekat/wavekat-brand/issues/10)) ([079128b](https://github.com/wavekat/wavekat-brand/commit/079128bc47a791f8d0c9df05f8d20227a27b371a))
+
 ## 0.0.1 (2026-05-13)
 
 
