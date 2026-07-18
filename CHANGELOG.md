@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.2](https://github.com/wavekat/wavekat-brand/compare/v0.0.1...v0.0.2) (2026-07-18)
+
+
+### Features
+
+* add wavekat-asr brand assets ([#10](https://github.com/wavekat/wavekat-brand/issues/10)) ([079128b](https://github.com/wavekat/wavekat-brand/commit/079128bc47a791f8d0c9df05f8d20227a27b371a))
+* add wavekat-flow brand assets ([#13](https://github.com/wavekat/wavekat-brand/issues/13)) ([9e0b3cb](https://github.com/wavekat/wavekat-brand/commit/9e0b3cb42747047183dbd302843475175bc23fa3))
+
+
+### Bug Fixes
+
+* drop stale release-as pin ([#15](https://github.com/wavekat/wavekat-brand/issues/15)) ([6931f43](https://github.com/wavekat/wavekat-brand/commit/6931f43b7356cc203b868edbfedda16c72431b68))
+
 ## [0.0.1](https://github.com/wavekat/wavekat-brand/compare/v0.0.1...v0.0.1) (2026-06-04)
 
 
